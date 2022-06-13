@@ -37,3 +37,33 @@ Read port: 4895
 
 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
 
+1654715106233	geckodriver	INFO	Listening on 127.0.0.1:8082
+1654715109211	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\morsh\\AppData\\Local\\Temp\\rust_mozprofilebra2TJ"
+1654715110282	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:8083
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\morsh\\AppData\\Local\\Temp\\rust_mozprofilebra2TJ\\search.json.mozlz4", (void 0)))
+1654715113663	Marionette	INFO	Listening on port 8124
+DevTools listening on ws://localhost:8083/devtools/browser/95c49ce7-58e3-45eb-8618-8526049214ed
+Read port: 8124
+1654715113811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1654715128917	Marionette	INFO	Stopped listening on port 8124
+JavaScript error: resource://gre/modules/DateTimePickerPanel.jsm, line 79: TypeError: this.dateTimePopupFrame.contentDocument is null
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654715150038	geckodriver	INFO	Listening on 127.0.0.1:8274
+1654715153022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8275" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\morsh\\AppData\\Local\\Temp\\rust_mozprofile7jSh1V"
+1654715153892	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:8275
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\morsh\\AppData\\Local\\Temp\\rust_mozprofile7jSh1V\\search.json.mozlz4", (void 0)))
+1654715156814	Marionette	INFO	Listening on port 8306
+Read port: 8306
+1654715156840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:8275/devtools/browser/95761d8d-af28-421d-8f1d-60637597215d
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1654715175260	Marionette	INFO	Stopped listening on port 8306
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
